@@ -1,20 +1,13 @@
-/**
- * Design tokens and seed data for the Smart Home interface.
- *
- * The screens are a fixed light design, so these colors are intentionally not
- * theme-aware (see `Colors` in `@/constants/theme` for the themed palette).
- */
-
 export const Palette = {
-  /** Screen background behind the cards. */
+  //Screen background behind the cards.
   background: '#EFEFEF',
-  /** Navigation header background. */
+  //Navigation header background.
   header: '#FFFFFF',
-  /** Card / tile fill. */
+  //Card / tile fill.
   surface: '#F5F5F5',
-  /** Hairline outline drawn around every card and tile. */
+  //Hairline outline drawn around every card and tile.
   outline: '#111111',
-  /** Divider under a settings row. */
+  //Divider under a settings row.
   divider: '#111111',
   text: '#0D0D0D',
   muted: '#3D3D3D',
